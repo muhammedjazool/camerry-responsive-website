@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="camerry.css">
+    <link rel="icon" href="images/favicon.png">
+  
+    <title>Document</title>
+
+    <style>
+            
+            
+        .error{
+    color: red;
+font-size: 12px;
+font-weight: 500;
+/*position: absolute;*/
+/*top: 31px;*/
+/*right: 25px;*/
+/*top: 100%;*/
+/*right: 68%;*/
+}
+
+#comment_error{
+    top: 100px;
+}
+
+.success_msg{
+        color: green;
+font-size: 20px !important;
+font-weight: 500;
+font-style: italic;
+border: none !important;
+display: block !important;
+}
+</style>
+  </head>
+  <body>
+    <script src="https://kit.fontawesome.com/ab14f3903c.js" crossorigin="anonymous"></script>
+
+     <!-- start header -->
+     <header>
+        <!-- start navigation -->
+        <nav class="navbar navbar-default bootsnav navbar-fixed-top header-dark background-transparent nav-box-width white-link navbar-expand-lg menu-center border-white-light border-bottom">
+            <div class="container-fluid nav-header-container">
+                <!-- start logo -->
+                <div class="col-auto col-lg-2 pl-0">
+                    <a href="index.html" title="" class="logo">
+                      <img src="logo.svg" data-rjs="images/logo.svg" alt="camerry ice cream" class="logo-light default" style="width: 200px;">
+                    </a>
+                </div>
+                <!-- end logo -->
+                <div class="col accordion-menu pr-0 pr-md-3">
+                    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-collapse-toggle-1">
+                        <span class="sr-only">toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-collapse collapse justify-content-center" id="navbar-collapse-toggle-1">
+                        <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
+                            
+                            <li class="dropdown simple-dropdown"><a href="#">Products</a>
+                               <i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                <!-- start sub menu -->
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="tubs.html">Tubs</a></li>
+                                    <li><a href="cone.html">Cones</a></li>
+                                    <li><a href="bars.html">Bars</a></li>
+                                    <li><a href="fruiticle.html">Fruiticle</a></li>
+                                    <li><a href="milkies.html">Milkies</a></li>
+                                    <li><a href="sipie.html">Sipie</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="making.html">Making</a></li>
+                            <li><a href="career.html">Career</a></li>
+                            <li class="active"><a href="contact.html">Contact</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-auto col-lg-2 pr-0 text-right">
+                    <div class="header-social-icon d-none d-md-inline-block no-border-left no-padding-left no-margin-left">  
+                        <a href="https://www.facebook.com/camerryicecream" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/Camerryicecream" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/camerryicecream/about/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/camerryicecream/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/channel/UC1j7DGZtwtPSBe1i_pMVuxw/" target="_blank"><i class="fab fa-youtube mr-0" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end navigation --> 
+    </header>
+    <!-- end header -->
+
+    <!-- start slider section -->
+    <section class="p-0 h-100 position-relative overflow-visible mobile-height wow fadeIn" style=" background-color: #dcaf92;">
+        <div class="swiper-container h-100 w-100 white-move">
+            <div class="swiper-wrapper">
+                <!-- start slider item -->
+                <div class="swiper-slide cover-background" style="background-image:url('contact.png');">
+                    <div class="container position-relative full-screen">
+                        <div class="slider-typography text-center">
+                            <div class="slider-text-middle-main">
+                                <div class="slider-text-middle">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end slider item -->
+            </div>    
+            <!-- end slider pagination -->
+        </div>
+        <!-- scroll down arrow -->
+        
+    </section>
+    <!-- end slider section --> 
+    
+    
+    <section id="about" class="wow fadeIn cover-background" style="background-color: #dcaf92; visibility: visible; animation-name: fadeIn;">
+        <div class="container"> 
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 col-md-6 padding-six-lr lg-padding-15px-lr text-center text-md-left wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+                    
+                    <div class="border-radius-6 lg-padding-seven-all sm-padding-30px-all h-100">
+                        <form id="contact-forms" action="javascript:void(0)" method="post">
+                            <div>
+                                <div id="success-contact-form" class="mx-0" style="display: none;"></div>
+                                <input type="text" name="name" id="name" placeholder="Name*"  onkeyup='$("#error").html("");' class="border-radius-4 bg-white medium-input">
+                                <!--<p id="name_error" class="error"></p>-->
+                                <input type="text" name="email" id="email" placeholder="E-mail*" onkeyup='$("#error").html("");'  class="border-radius-4 bg-white medium-input">
+                                <!--<p id="email_error" class="error"></p>-->
+                                <input type="text" name="phone" id="phone" placeholder="Mobile" onkeyup='$("#error").html("");' class="border-radius-4 bg-white medium-input">
+                                <!--<p id="phone_error" class="error"></p>-->
+                                <textarea name="comment" id="comment" placeholder="Your Message" onkeyup='$("#error").html("");' rows="5" class="border-radius-4 bg-white medium-textarea"></textarea>
+                                <!--<p id="comment_error" class="error"></p>-->
+                                <button id="contact-us-button" type="submit" class="btn btn-small border-radius-4 btn-dark-gray"   onclick='return getValid();'>send message</button>
+                            </div>
+                            <div class="col-12">
+                                <p id="error" class="error"></p>
+                                <div  class="success_msg"></div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-12 col-lg-6 col-md-6 padding-six-lr lg-padding-15px-lr text-center text-md-left wow fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31420.266779166584!2d76.44535442608701!3d10.137230332357639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sChelamattom%2C%20Okkal%20P.O.%20Perumbavoor%2C%20Ernakulam%2C%20Kerala%20-%20683%20550%2C%20India.!5e0!3m2!1sen!2sin!4v1652772311544!5m2!1sen!2sin" width="100%" height="200" style="border:solid 6px #e4c19b;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                    <span class="text-large font-weight-600 alt-font text-extra-dark-gray margin-5px-bottom d-block mt-3">NUTRICREAMS PRIVATE LIMITED</span>
+                    
+                    <p style="color: #000; font-weight: 500;">
+                        Branch: :XV/274 , M.C Road, Okkal P.O,<br> 
+                        Ernakulam, Kerala-683550<br><br>
+                       
+                       Toll Free : <a href="#" style="color: #000;">1800 889 2080</a><br><br>
+
+                       Ph : <a href="#" style="color: #000;">0484 2524 335</a> ,<a href="#" style="color: #000;"> 2528 958</a><br>
+                       Mob : <a href="#" style="color: #000;">+91 9746 674 440</a><br><br>
+
+                       Emails : <br>
+                       flavours@camerry.in</p>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- start footer --> 
+    <footer class="footer-strip-dark bg-extra-dark-gray padding-90px-tb lg-padding-70px-tb md-padding-50px-tb sm-padding-40px-tb" style="padding-top: 50px; padding-bottom: 50px;">
+        <div class="container">
+            <div class="row align-items-center sm-text-center">
+                <div class="col-md-12 col-12 sm-margin-30px-bottom">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h5 class="margin-5px-bottom" style="color: #7c682a;">Get in touch with us.</h5>
+                             <span class="text-medium" style="color:#d1bd74;">If you have any queries or feedback, we would love to hear from you!</span>
+                        </div>
+                        <div class="col-md-3" style="padding-top: 20px;">
+                            <span class="text-extra-large text-extra-dark-gray text-light-gray d-inline-block sm-d-block">
+                            <a  href="contact.html" class="btn btn-large btn-transparent-white d-table d-lg-inline-block md-margin-lr-auto">Contact Us</a></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row align-items-center border-top border-color-medium-dark-gray padding-80px-top margin-80px-top lg-padding-60px-top lg-margin-60px-top md-padding-50px-top md-margin-50px-top sm-padding-40px-top sm-margin-40px-top">
+                    <!-- start logo -->
+                    <div class="col-lg-4 col-md-12 md-text-center md-margin-50px-bottom sm-margin-30px-bottom">
+                        <a href="index.html"><img class="footer-logo" src="images/logo.svg" style="width: 200px;" data-rjs="images/logo.svg" alt="camerry ice cream"></a>
+                    </div> 
+                    <!-- end logo -->
+                    <!-- start copyright -->
+                    <div class="col-lg-5 col-md-5 col-12 sm-margin-30px-bottom text-medium sm-text-center" style="color: #d1bd74;">
+                        NUTRICREAMS PRIVATE LIMITED<br>
+                        Branch: :XV/274 , M.C Road, Okkal P.O,<br> 
+                        Ernakulam, Kerala-683550<br><br>
+                        +91 9746 674 440<br>
+                        toll free no : 1800 889 2080<br>
+                        <a href="mailto:flavours@camerry.in">flavours@camerry.in</a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-12 sm-margin-30px-bottom text-medium sm-text-center" style="color: #d1bd74;">
+                        <ul class="list-unstyled">
+                           <li><a href="about.html">ABOUT US</a></li>
+                           <li><a href="making.html">MAKING</a></li>
+                           <li><a href="career.html">CAREER</a></li>
+                           <li><a href="media.html">MEDIA</a></li>
+                           <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <!-- end copyright -->
+                </div>
+                </div>
+                <!--<div class="col-md-4 col-12 text-md-right text-sm-center">-->
+                <!--    <div class="fb-page" data-href="https://www.facebook.com/merricrem/" data-tabs="timeline" data-width="" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" style="width: 100#; height: 300px;"><blockquote cite="https://www.facebook.com/merricrem/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/merricrem/">Merricrem</a></blockquote></div> -->
+                <!--</div> -->
+            </div>
+            
+
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- start scroll to top -->
+    <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
+    <!-- end scroll to top -->
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v14.0" nonce="KG1br7cU"></script>
+	
+	
+	
+	
+         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<div class="g-recaptcha"
+      data-sitekey="6LdV93AiAAAAAOwz59sKHIxLMrfKMGJNDQBfxwtM"
+      data-callback="onSubmit"
+      data-size="invisible">
+</div>   
+
+
+<!-- Google Tag Manager (noscript) -->
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQJ4H6M"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager (noscript) -->
+    
+    
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous">
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+
+<!-- .formbox form{
+    display: flex;
+}
+.formbox input{
+    width:381px;
+    height:43px;
+    margin: 15px 0 0 40px;
+    padding: 0 0 2px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    color: #191919;
+    border-left: 1px solid #817b7bcc;
+    border-bottom:1px solid #817b7bcc;
+    border-top: 1px solid #817b7bcc;
+    border-right: none;
+} -->
+
+
+<!-- <div class="formbox">
+    <form>
+        <input type="text" class="input" placeholder="Search HP.com">
+        <div class="button"><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #857d7d;"></i></div>
+    </form> -->
